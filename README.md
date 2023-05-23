@@ -20,6 +20,6 @@ In my third model I decided to get a bit more aggressive by trying to hyperparam
 
 In my final attempt at optimizations I thought maybe the epochs was the problem and I just needed to run more to achieve my score. I set my layers back to their orignal nueron counts but kept the two dropout layers in because they did seem to ever so slightly increase the accuracy from before. I ran the model with 200 epochs instead of 100 epochs. This resulted in an accuracy rate of 73.11%.
 
-##Summary
+## Summary
 
 I was unable to achieve the accuracy score of 75%, so I would not be able to suggest any of my models. I would have to explore other approaches to solving this problem. Using Random Forest Classifier or other preprocessing modifications might result in better results. I could also continue to fiddle with the activations functions, dropout layers, number of layers, and number of nuerons per layer to try an optimize the model further as although my initial attempts did not get up to 75% they all did improve slightly over the initial model.
